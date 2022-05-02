@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby"
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Birjot-Bala`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `birjot-bala.github.io`,
   },
   plugins: [],
 }
