@@ -72,7 +72,7 @@ const badgeStyle = {
   borderRadius: 4,
   padding: "4px 6px",
   display: "inline-block",
-  position: "relative" as "relative",
+  position: "relative" as const,
   top: -2,
   marginLeft: 10,
   lineHeight: 1,
@@ -126,7 +126,7 @@ const links = [
 ]
 
 // markup
-const IndexPage = () => {
+const IndexPage = (): JSX.Element => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
