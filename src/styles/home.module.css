@@ -1,0 +1,15 @@
+.category section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.category p {
+    margin: 4px;
+}
+
+.job section {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

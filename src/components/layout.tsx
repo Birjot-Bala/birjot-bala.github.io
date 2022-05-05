@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './navbar'
-import "../styles/global.css"
+import '../styles/global.css'
 
 interface ContentProps {
     children: JSX.Element[] | JSX.Element;
