@@ -1,6 +1,7 @@
 import { graphql, PageProps } from "gatsby"
 import * as React from "react"
 import Layout from "../components/layout"
+import { category } from "../styles/home.module.css"
 
 type DataProps = {
   markdownRemark: {
@@ -12,7 +13,7 @@ const IndexPage = ({ data: { markdownRemark } }: PageProps<DataProps>): JSX.Elem
 
   return (
     <Layout>
-      <div dangerouslySetInnerHTML={{ __html: markdownRemark.html }}/>
+      <div className={ category } dangerouslySetInnerHTML={{ __html: markdownRemark.html }}/>
     </Layout>
   )
 }

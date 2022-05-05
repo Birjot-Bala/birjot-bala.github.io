@@ -13,7 +13,8 @@ McMaster University
 Hamilton, ON
 
 ## Experience
-**Technical Support Engineer**
+
+### Technical Support Engineer
 
 **June 2021 - Present**
 
@@ -25,7 +26,7 @@ Mississauga, ON
 - Handled time-sensitive alerts and escalations during on-call shifts for production environments
 - Guidewire Certified Professional - PolicyCenter 10 Product Support Engineer
 
-**Project Engineering (Co-op Student)**
+### Project Engineering (Co-op Student)
 
 **May 2017 – May 2018**
 
@@ -37,7 +38,8 @@ Toronto, ON
 - Identified the root cause of a stripped screw by dissecting the part at the failure and designed an improvement to the thread to meet torque requirements
 
 ## Projects
-**Discord Bot** 
+
+### Discord Bot
 
 **February 2020 – Present**
 - Developed a bot that listens for commands in a Discord server, accesses public APIs to retrieve information based on provided arguments, and sends a message
