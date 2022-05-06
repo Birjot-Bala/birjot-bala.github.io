@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
+html {
+    background-image:  linear-gradient(rgba(0,0,0,0.1) 1.2px, transparent 1.2px), linear-gradient(90deg, rgba(0,0,0,0.1) 1.2px, transparent 1.2px), linear-gradient(rgba(0,0,0,0.1) 0.6px, transparent 0.6px), linear-gradient(90deg, rgba(0,0,0,0.1) 0.6px, #ffffff 0.6px);
+    background-size: 30px 30px, 30px 30px, 6px 6px, 6px 6px;
+    background-position: -1.2px -1.2px, -1.2px -1.2px, -0.6px -0.6px, -0.6px -0.6px;
+}
+
 body {
-    font-family: "Roboto Mono"
+    font-family: "Roboto Mono";
+    background-color: #ffffff;
+    border: solid black 1px;
+    padding: 24px 48px;
+    margin: 16px 10%;
 }
 
 .layout {
@@ -24,6 +34,7 @@ nav .links {
     align-items: center;
     justify-content: end;
     font-size: 1.5em;
+    flex-wrap: wrap;
 }
 
 nav a {
