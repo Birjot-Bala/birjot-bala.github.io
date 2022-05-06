@@ -1,6 +1,6 @@
 ---
 title: Birjot Bala Resume
-slug: birjot-bala-resume
+slug: resume
 ---
 
 ## Education 
