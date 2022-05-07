@@ -10,9 +10,7 @@ const Layout = ({ children }: ContentProps): JSX.Element => {
     return (
         <main>
             <NavBar/>
-            <div className='content'>
-                { children }
-            </div>
+            { children }
         </main>
     )
 }

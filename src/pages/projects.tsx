@@ -2,6 +2,7 @@ import { graphql, PageProps } from 'gatsby'
 import React from 'react'
 import Layout from '../components/layout'
 import ProjectCard from '../components/projectCard'
+import { cardGroup } from "../styles/card.module.css"
 
 type ProjectsProp = {
     allMarkdownRemark: {
@@ -22,13 +23,15 @@ type ProjectsProp = {
 const ProjectsPage = ({ data : { allMarkdownRemark } }: PageProps<ProjectsProp>): JSX.Element => {
     return (
         <Layout>
-            {allMarkdownRemark.nodes.map((project) => {
-                return (
-                    <ProjectCard key={project.id} img={project.frontmatter.image.publicURL} alt={project.frontmatter.desc}>
-                        <div dangerouslySetInnerHTML={{ __html: project.html }} />
-                    </ProjectCard>
-                )
-            })}
+            <div className={cardGroup}>
+                {allMarkdownRemark.nodes.map((project) => {
+                    return (
+                        <ProjectCard key={project.id} img={project.frontmatter.image.publicURL} alt={project.frontmatter.desc}>
+                            <div dangerouslySetInnerHTML={{ __html: project.html }} />
+                        </ProjectCard>
+                    )
+                })}
+            </div>
         </Layout>
     )
 }
