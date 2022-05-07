@@ -3,15 +3,15 @@ import NavBar from './navbar'
 import '../styles/global.css'
 
 interface ContentProps {
-    children: JSX.Element[] | JSX.Element;
+    children: JSX.Element | JSX.Element[];
 }
 
-const Layout = (prop: ContentProps): JSX.Element => {
+const Layout = ({ children }: ContentProps): JSX.Element => {
     return (
         <main>
             <NavBar/>
             <div className='content'>
-                { prop.children }
+                { children }
             </div>
         </main>
     )
