@@ -4,4 +4,4 @@ slug: "projects/gnome"
 desc: "gnome"
 image: "../../images/gnome.png"
 ---
-Gnome
+## Gnome
