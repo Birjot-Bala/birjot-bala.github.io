@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html {
     background-image:  linear-gradient(rgba(0,0,0,0.1) 1.2px, transparent 1.2px), linear-gradient(90deg, rgba(0,0,0,0.1) 1.2px, transparent 1.2px), linear-gradient(rgba(0,0,0,0.1) 0.6px, transparent 0.6px), linear-gradient(90deg, rgba(0,0,0,0.1) 0.6px, #ffffff 0.6px);
@@ -8,8 +8,8 @@ html {
 }
 
 body {
-    font-family: "Roboto Mono";
-    background-color: #ffffff;
+    font-family: "Roboto";
+    background-color: #f5f5f5;
     border: solid black 2px;
     padding: 24px 48px;
     margin: 16px auto;
