@@ -12,7 +12,8 @@ type ProjectsProp = {
                 desc: string;
                 image: {
                     publicURL: string;
-                }
+                };
+                github: string;
             }
             html: string;
             id: string;
@@ -26,7 +27,7 @@ const ProjectsPage = ({ data : { allMarkdownRemark } }: PageProps<ProjectsProp>)
             <div className={cardGroup}>
                 {allMarkdownRemark.nodes.map((project) => {
                     return (
-                        <ProjectCard key={project.id} img={project.frontmatter.image.publicURL} alt={project.frontmatter.desc}>
+                        <ProjectCard key={project.id} img={project.frontmatter.image.publicURL} alt={project.frontmatter.desc} github={project.frontmatter.github}>
                             <div dangerouslySetInnerHTML={{ __html: project.html }} />
                         </ProjectCard>
                     )
@@ -48,6 +49,7 @@ export const query = graphql`
                 image {
                     publicURL
                 }
+                github
             }
             html
         }
