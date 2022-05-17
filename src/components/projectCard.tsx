@@ -1,5 +1,4 @@
 import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image';
-import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks';
 import React from 'react'
 import { card } from '../styles/card.module.css'
 
