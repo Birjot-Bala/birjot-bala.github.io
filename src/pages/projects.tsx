@@ -1,4 +1,5 @@
 import { graphql, PageProps } from 'gatsby'
+import { IGatsbyImageData } from 'gatsby-plugin-image'
 import React from 'react'
 import Layout from '../components/layout'
 import ProjectCard from '../components/projectCard'
@@ -10,9 +11,7 @@ type ProjectsProp = {
             frontmatter: {
                 title: string;
                 desc: string;
-                image: {
-                    publicURL: string;
-                };
+                image: IGatsbyImageData;
                 github: string;
             }
             html: string;
@@ -22,12 +21,13 @@ type ProjectsProp = {
 }
 
 const ProjectsPage = ({ data : { allMarkdownRemark } }: PageProps<ProjectsProp>): JSX.Element => {
+
     return (
         <Layout>
             <div className={cardGroup}>
                 {allMarkdownRemark.nodes.map((project) => {
                     return (
-                        <ProjectCard key={project.id} img={project.frontmatter.image.publicURL} alt={project.frontmatter.desc} github={project.frontmatter.github}>
+                        <ProjectCard key={project.id} img={project.frontmatter.image} alt={project.frontmatter.desc} github={project.frontmatter.github}>
                             <div dangerouslySetInnerHTML={{ __html: project.html }} />
                         </ProjectCard>
                     )
@@ -47,7 +47,11 @@ export const query = graphql`
                 title
                 desc
                 image {
-                    publicURL
+                    childImageSharp {
+                        gatsbyImageData (
+                            placeholder: BLURRED
+                        )
+                    }
                 }
                 github
             }

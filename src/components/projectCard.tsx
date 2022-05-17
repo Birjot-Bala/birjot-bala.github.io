@@ -1,20 +1,19 @@
+import { GatsbyImage, getImage, IGatsbyImageData } from 'gatsby-plugin-image';
+import { FileNode } from 'gatsby-plugin-image/dist/src/components/hooks';
 import React from 'react'
 import { card } from '../styles/card.module.css'
 
 interface CardProps {
-    img: string;
+    img: IGatsbyImageData;
     alt: string;
     github: string;
     children: JSX.Element | JSX.Element[];
 }
 
 const ProjectCard = ({img, alt, github, children}: CardProps): JSX.Element => {
-
-
-
   return (
     <div className={ card } onClick={() => window.open(github,"_blank")}>
-        <img src={img} alt={alt} />
+        <GatsbyImage image={getImage(img) as IGatsbyImageData} alt={alt} />
         { children }
     </div>
   )
