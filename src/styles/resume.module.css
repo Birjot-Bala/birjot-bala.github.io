@@ -9,3 +9,8 @@
 .category h3 {
     margin-bottom: 4px;
 }
+
+.category {
+    background-color: var(--bg-color);
+    padding: 25px 50px;
+}
