@@ -3,7 +3,7 @@
 }
 
 .category h2 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--font-color);
 }
 
 .category h3 {
