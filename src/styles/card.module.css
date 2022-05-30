@@ -24,7 +24,7 @@
 
 .card h3 {
     margin: 0.2em 0.1em;
-    border-bottom: solid gray 1px;
+    border-bottom: solid var(--font-color) 1px;
     max-width: fit-content;
     padding-left: 0.25em;
     min-width: -webkit-fill-available;
@@ -37,6 +37,14 @@
 
 .card button {
     margin: 0.5em;
+    background-color: #253540;
+    color: var(--font-color);
+    border: solid var(--font-color) 1px;
+    transition: 0.2s ease-out;
+}
+
+.card button:hover {
+    box-shadow: 0px 0px 4px 1px var(--font-color);
 }
 
 .cardGroup {

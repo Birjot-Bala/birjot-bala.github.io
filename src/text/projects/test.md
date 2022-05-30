@@ -1,7 +1,7 @@
 ---
-title: "Gnome 2"
-slug: "projects/gnome2"
-desc: "gnome 2"
-image: "../../images/gnome.png"
+title: "Portfolio Website"
+slug: "projects/portfolio-website"
+desc: "Portfolio Website"
+image: "../../images/gnome-image.png"
 ---
-### Test
+### Portfolio Website

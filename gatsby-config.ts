@@ -21,6 +21,13 @@ const config: GatsbyConfig = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `svgs`,
+        path: `${__dirname}/src/svgs/`,
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
