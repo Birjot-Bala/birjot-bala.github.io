@@ -1,15 +1,17 @@
 .card {
-    border: solid var(--main-color) 2px;
-    background-color: #253540;
+    border: solid var(--main-color) 4px;
+    background-color: #303030;
     transition: 0.2s ease-out;
     margin: 32px;
     min-width: 200px;
     min-height: 350px;
     max-width: min-content;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover {
-    background-color: #2B414F;
+    background-color: #505050;
 }
 
 .card img {
@@ -37,10 +39,11 @@
 
 .card button {
     margin: 0.5em;
-    background-color: #253540;
+    background-color: #252525;
     color: var(--font-color);
     border: solid var(--font-color) 1px;
     transition: 0.2s ease-out;
+    margin-top: auto;
 }
 
 .card button:hover {
