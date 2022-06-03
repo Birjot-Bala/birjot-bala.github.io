@@ -1,5 +1,6 @@
 import { graphql, Link, useStaticQuery } from 'gatsby'
 import React from 'react'
+import SocialMediaLinks from './socialMediaLinks'
 
 
 const NavBar = (): JSX.Element => {
@@ -20,6 +21,7 @@ const NavBar = (): JSX.Element => {
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
             </div>
+            <SocialMediaLinks />
         </nav>
     )
 }
