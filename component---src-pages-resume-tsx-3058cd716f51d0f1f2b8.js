@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbirjot_bala=self.webpackChunkbirjot_bala||[]).push([[753],{4410:function(e,a,t){t.r(a),t.d(a,{default:function(){return l}});var r=t(7294),n=t(3248),l=function(e){var a=e.data.markdownRemark;return r.createElement(n.Z,null,r.createElement("div",{className:"resume-module--category--McF2a",dangerouslySetInnerHTML:{__html:a.html}}))}}}]);
+//# sourceMappingURL=component---src-pages-resume-tsx-3058cd716f51d0f1f2b8.js.map

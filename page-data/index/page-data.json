@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-index-tsx",
+    "path": "/",
+    "result": {"data":{"markdownRemark":{"html":"<h1>Birjot Bala</h1>\n<p>I am an engineering graduate with an interest in software development. Currently, I am working on learning TypeScript and the guitar. I enjoy reading fantasy novels (recently finished The Realm of the Elderlings series!), gaming, and listening to power metal.</p>","frontmatter":{"svg":{"publicURL":"/static/23024016c777d27bf4b64236eeb88b7f/programming.svg"}}}},"pageContext":{}},
+    "staticQueryHashes": ["1860041860"]}
