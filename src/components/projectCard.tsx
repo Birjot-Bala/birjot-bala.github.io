@@ -12,7 +12,7 @@ interface CardProps {
 const ProjectCard = ({img, alt, github, children}: CardProps): JSX.Element => {
   return (
     <div className={ card }>
-        <GatsbyImage image={getImage(img) as IGatsbyImageData} alt={alt} />
+        <GatsbyImage image={ getImage(img) as IGatsbyImageData } alt={ alt } />
         { children }
         <button onClick={() => window.open(github, "_blank")}>Github</button>
     </div>
