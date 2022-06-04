@@ -53,7 +53,7 @@
 .cardGroup {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: var(--bg-color);
     padding: 1em 10%;
 }
