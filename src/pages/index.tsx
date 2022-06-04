@@ -1,6 +1,7 @@
 import { graphql, PageProps } from 'gatsby';
 import React from 'react'
 import Layout from "../components/layout"
+import Projects from '../components/projects';
 import { indexPage, text } from "../styles/index.module.css"
 
 type DataProps = {
@@ -20,6 +21,7 @@ const IndexPage = ({ data: { markdownRemark } }: PageProps<DataProps>): JSX.Elem
             <div className={ indexPage }>
                 <div className={ text } dangerouslySetInnerHTML={{ __html: markdownRemark.html }}/>
                 <img src={ markdownRemark.frontmatter.svg.publicURL } />
+                <Projects />
             </div>
         </Layout>
     )
