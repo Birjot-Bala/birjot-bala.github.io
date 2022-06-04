@@ -8,12 +8,13 @@
 }
 
 html {
-    background-color: var(--main-color);
+    background-color: var(--bg-color);
     overflow-y: scroll;
 }
 
 body {
     margin: 0;
+    padding-bottom: 20px;
     font-family: "Roboto", sans-serif;
     min-width: 350px;
     color: var(--font-color);
@@ -75,4 +76,51 @@ nav .social-media .material-symbols-outlined {
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
+}
+
+.contactForm h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.5em;
+}
+
+.contactForm form {
+    display:flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+
+.contactForm input {
+    margin-bottom: 6px;
+    font-size: 1.25em;
+    background-color: #303134;
+    color: inherit;
+    border: none;
+    border-radius: 4px;
+    padding: 0.33em;
+}
+
+.contactForm textarea {
+    font-family: inherit;
+    font-size: 1.25em;
+    resize: none;
+    background-color: #303134;
+    color: inherit;
+    border: 1px  solid transparent;
+    border-radius: 4px;
+    padding: 0.33em;
+    height: 5em;
+    margin-bottom: 6px;
+}
+
+.contactForm .submit {
+    margin-left: auto;
+    width: 33%;
+    border: solid 1px #303134
+}
+
+.contactForm .submit:hover {
+    border: 1px solid #5f6368
 }
