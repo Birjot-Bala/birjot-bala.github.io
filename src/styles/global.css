@@ -13,6 +13,7 @@ html {
 }
 
 body {
+    margin: 0;
     font-family: "Roboto", sans-serif;
     min-width: 350px;
     color: var(--font-color);
@@ -26,9 +27,12 @@ body {
 nav {
     display: flex;
     background-color: var(--bg-color);
-    margin-bottom: 6px;
+    border-bottom: solid 6px var(--main-color);
     justify-content: space-evenly;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 nav h1 {

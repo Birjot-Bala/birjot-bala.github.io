@@ -1,5 +1,4 @@
 .card {
-    border: solid var(--main-color) 4px;
     background-color: #303134;
     transition: 0.2s ease-out;
     margin: 32px;
@@ -8,6 +7,8 @@
     max-width: min-content;
     display: flex;
     flex-direction: column;
+    padding: 4px;
+    border-radius: 4px;
 }
 
 .card:hover {
