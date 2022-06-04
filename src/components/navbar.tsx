@@ -53,7 +53,6 @@ const NavBar = (): JSX.Element => {
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
             </div>
             <div className='social-media'>
                 {data.allMarkdownRemark.nodes.map((social) => {
