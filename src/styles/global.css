@@ -2,7 +2,7 @@
 
 :root {
     --main-color: #121212;
-    --bg-color: #181818;
+    --bg-color: #202124;
     --font-color: #f5f5f5; 
 }
 
@@ -57,6 +57,7 @@ nav a:hover {
 
 nav .social-media {
     align-self: center;
+    margin: 5px 0px;
 }
 
 nav .social-media img {

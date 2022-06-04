@@ -1,6 +1,6 @@
 .card {
     border: solid var(--main-color) 4px;
-    background-color: #303030;
+    background-color: #303134;
     transition: 0.2s ease-out;
     margin: 32px;
     min-width: 200px;
@@ -34,16 +34,17 @@
 }
 
 .card p {
-    margin: 0.5em;
+    margin: 1em 0.5em;
 }
 
 .card button {
     margin: 0.5em;
     background-color: #252525;
     color: var(--font-color);
-    border: solid var(--font-color) 1px;
-    transition: 0.2s ease-out;
+    border: 1px solid #5f6368;
     margin-top: auto;
+    border-radius: 4px;
+    padding: 0.5em
 }
 
 .card button:hover {
