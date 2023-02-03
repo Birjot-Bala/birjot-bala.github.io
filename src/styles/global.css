@@ -64,6 +64,8 @@ nav a:hover {
 nav .social-media {
     align-self: center;
     margin: 5px 0px;
+    display: flex;
+    align-items: flex-start
 }
 
 nav .social-media img {
