@@ -32,7 +32,8 @@ const NavBar = (): JSX.Element => {
                     image {
                         childImageSharp {
                             gatsbyImageData (
-                                placeholder: BLURRED
+                                placeholder: BLURRED,
+                                height: 36
                             )
                         }
                     }
