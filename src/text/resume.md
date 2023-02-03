@@ -14,9 +14,21 @@ Hamilton, ON
 
 ## Experience
 
+### Application Developer
+
+**November 2022 - Present**
+
+Wawanesa Insurance
+
+Toronto, ON
+- Developed product enhancements based on businesss needs in Java/Gosu
+- Developed web services for integrations between business applications
+- Worked in an agile scrum team model
+- Used software development tools such as JIRA, Confluence, Git, BitBucket and TeamCity
+
 ### Technical Support Engineer
 
-**June 2021 - Present**
+**June 2021 - November 2022**
 
 Guidewire Software
 
