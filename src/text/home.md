@@ -5,4 +5,4 @@ svg: ../svgs/programming.svg
 ---
 # Birjot Bala
 
-I am an engineering graduate with an interest in software development. Currently, I am working on learning TypeScript and the guitar. Employed at Wawanesa Insurance as an Application Developer. 
+I am an engineering graduate with an interest in software development. Currently, I am working on learning Rust and the guitar. Employed at Wawanesa Insurance as an Application Developer. 
