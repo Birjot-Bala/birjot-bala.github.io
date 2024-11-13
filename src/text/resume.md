@@ -14,15 +14,20 @@ Hamilton, ON
 
 ## Experience
 
-### Application Developer
+### Application Developer II
 
-**November 2022 - Present**
+**April 2024 - Present**
+
+### Application Developer I
+
+**November 2022 - April 2024**
 
 Wawanesa Insurance
 
 Toronto, ON
+- Developed an integration between policy and claims business applications saving the business over $1.5 million in less than a year
+- Developed an asynchronous integration using message queues to send JSON payloads to an in-house endpoint
 - Developed product enhancements based on businesss needs in Java/Gosu
-- Developed web services for integrations between business applications
 - Worked in an agile scrum team model
 - Used software development tools such as JIRA, Confluence, Git, BitBucket and TeamCity
 
